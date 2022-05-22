@@ -44,6 +44,7 @@ fn main() {
 
         if allowed_tries == 0 {
             println!("No more tries left. You lose!");
+            println!("The correct number: {}", secret_number);
             break;
         }
     }
